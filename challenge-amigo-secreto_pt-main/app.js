@@ -1,9 +1,8 @@
 let amigos = [];
-let nomeLista;
 
 function adicionarAmigo() {
     adicionar = document.querySelector('input').value;
-    if (adicionar == ''){
+    if (adicionar == '') {
         return alert('Campo em branco. Por favor, digite um nome antes de adicionar o amigo');
     }
     if (amigos.includes(adicionar)) {
@@ -14,15 +13,14 @@ function adicionarAmigo() {
         listarAmigos();
     }
 }
-
 function sortearAmigo() {
     let numeroAleatorio = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[numeroAleatorio];
 
-    if (amigos.length <= 1){
-        return alert ('Precisa incluir os amigos antes de sortear');
+    if (amigos.length <= 1) {
+        return alert('Precisa incluir os amigos antes de sortear');
     }
-    
+
     let exibirResultado = document.getElementById('resultado');
     exibirResultado.innerHTML = `<li> O amigo sorteado é: ${amigoSorteado}</li>`;
 }
@@ -41,12 +39,8 @@ function listarAmigos() {
         li.textContent = amigo; //Aqui é onde é incluso o nome na lista do HTML
         exibirLista.appendChild(li);
     });
-} 
-
-function limparLista() {
-
 }
 
-function exibirTexto() {
-
+function limparLista() {
+//adicionar recurso de limpar lista
 }
