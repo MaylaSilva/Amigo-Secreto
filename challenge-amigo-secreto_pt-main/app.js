@@ -35,7 +35,7 @@ function sortearAmigo() {
 
 function exibirResultado(amigoSorteado) {
     let exibirResultado = document.getElementById('resultado');
-    exibirResultado.innerHTML = `<li> O amigo sorteado é: ${amigoSorteado}</li>`;
+    exibirResultado.innerHTML = `<li> O amigo sorteado é ${amigoSorteado}</li>`;
 }
 
 function limparCampo() {
