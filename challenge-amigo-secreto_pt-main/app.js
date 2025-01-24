@@ -14,6 +14,7 @@ function adicionarAmigo() {
         listarAmigos();
     }
 }
+
 function sortearAmigo() {
     if (amigos.length < 2) {
         return alert('Precisa incluir os amigos antes de sortear');
@@ -31,8 +32,6 @@ function sortearAmigo() {
     amigosSorteados.push(amigoSorteado);
     exibirResultado(amigoSorteado);
 }
-
-
 
 function exibirResultado(amigoSorteado) {
     let exibirResultado = document.getElementById('resultado');

@@ -130,15 +130,32 @@ button {
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
+    color: var(--color-white);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     margin: 20px 0;
+}
+.name-list{
+    padding: 5px;
+    border: 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.name-list li { /* Estiliza cada item individual */
+    padding: 5px 10px;
+    background-color: var(--color-primary);
+    border-radius: 50px;
+    box-shadow: 0 5px 10px black;
+    text-align: center;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #0b690b;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -150,9 +167,11 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
+    border: 0px solid #000;
     color: var(--color-white);
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .button-draw img {
