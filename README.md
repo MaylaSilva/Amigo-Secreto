@@ -1,5 +1,5 @@
 # CHALLENGE - Amigo Secreto
-
+<img src='https://tenor.com/pt-BR/view/kitten-cat-typing-typing-cat-thank-goodness-gif-16601149.gif' width="200"/>
 O objetivo desse projeto é colocar em prática o que foi aprendido durante as aulas de lógica de programação.
 
 ## Linguagens e ferramentas utilizadas:
