@@ -5,10 +5,10 @@ function adicionarAmigo() {
     if (adicionar == '') {
         return alert('Campo em branco. Por favor, digite um nome antes de adicionar o amigo');
     }
-    if (amigos.includes(adicionar)) {
+    if (amigos.includes(adicionar.toUpperCase())) {
         return alert('O nome já foi incluído. Altere o nome ou inclua o sobrenome');
     } else {
-        amigos.push(adicionar);
+        amigos.push(adicionar.toUpperCase());
         limparCampo();
         listarAmigos();
     }
