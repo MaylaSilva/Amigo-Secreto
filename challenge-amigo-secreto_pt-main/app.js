@@ -42,5 +42,7 @@ function listarAmigos() {
 }
 
 function limparLista() {
-//adicionar recurso de limpar lista
+    let limparListaFeita = document.getElementById('listaAmigos');
+    limparListaFeita.innerHTML = '';
+    amigos = [];
 }

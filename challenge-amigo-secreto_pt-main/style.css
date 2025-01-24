@@ -90,6 +90,8 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    display: flex;
+    gap: 20px;
 }
 
 /* Estilos de entrada de texto */
@@ -155,6 +157,11 @@ ul {
 
 .button-draw img {
     margin-right: 40px;
+}
+
+.button-draw #trash{
+    width: 40px;
+    height: 40px;
 }
 
 .button-draw:hover {
